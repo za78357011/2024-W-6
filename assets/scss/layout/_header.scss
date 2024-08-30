@@ -2,3 +2,17 @@
   background: #69F0AE;
   font-size: 64px;
 }
+
+.input-group{
+  // width: 276px;
+}
+.form-control {
+    padding-right: 40px;
+}
+.input-group-text {
+    position: absolute;
+    right: 0;
+    height: 100%;
+    border: none;
+    background: transparent;
+}
