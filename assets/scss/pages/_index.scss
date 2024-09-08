@@ -32,7 +32,7 @@
   }
   &::after {
     position: absolute;
-    right: -20px;
+    right: 0px;
     bottom: 0;
     content: "";
     display: block;
@@ -42,4 +42,20 @@
   }
 }
 
+.line{
+  width: 80px;
+  height: 1px;
+  background: #6c757d;
+}
 
+@media screen and (max-width: 992px) {
+  .hito-content::before{
+    display: none;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .hito-content::after{
+    width: 160px;
+  }
+}
